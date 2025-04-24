@@ -1,0 +1,13 @@
+{
+  "name": "starbind",
+  "version": "1.0.0",
+  "description": "A full-stack application with separate frontend and backend",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
